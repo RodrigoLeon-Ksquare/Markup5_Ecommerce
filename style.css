@@ -7,10 +7,7 @@
 }
 
 body {
-  height: 100vh;
   font-family: "Roboto", sans-serif;
-  display: flex;
-  flex-direction: column;
 }
 /*Navbar*/
 header {
@@ -66,21 +63,23 @@ li > a {
 
 .divider {
   height: 1px;
-  width: 1000px;
+  width: 75%;
   margin-left: 180px;
-  color: red;
   background-color: #e4e9f2;
 }
 /*Content*/
+main {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .main_container {
-  max-width: 1200px;
+  width: 1000px;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 30px;
-  margin-left: 100px;
-  padding: 10px 100px;
 }
 /*Main content left side*/
 .main_image {
