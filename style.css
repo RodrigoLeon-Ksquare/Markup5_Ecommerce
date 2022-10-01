@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+/*Navbar*/
+header {
+  padding: 20px;
+}
+.header_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header_left_container {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  color: #1d2026;
+  font-size: 2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.nav_links {
+  display: flex;
+  list-style: none;
+}
+
+li > a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 32px;
+  color: #69707d;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+
+.header_right_container {
+  display: flex;
+  align-items: center;
+}
+
+.header_right_container > img {
+  cursor: pointer;
+}
+.user_image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-left: 50px;
+}
+
+.divider {
+  height: 1px;
+  width: 1000px;
+  margin-left: 180px;
+  color: red;
+  background-color: #e4e9f2;
+}
+/*Content*/
+.main_container {
+  max-width: 1200px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+  margin-left: 100px;
+  padding: 10px 100px;
+}
+/*Main content left side*/
+.main_image {
+  height: 440px;
+  width: 440px;
+  border-radius: 16px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+.image_container {
+  display: flex;
+  justify-content: space-between;
+}
+.little_image {
+  height: 85px;
+  width: 85px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/*Main content right side*/
+.main_right_container {
+  margin-left: 125px;
+}
+.title {
+  color: #ff7e1b;
+  font-size: 0.8125rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.subtitle {
+  color: #1d2026;
+  font-size: 2.8125rem;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.text {
+  color: #69707d;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+  line-height: 25px;
+}
+
+.price_container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.price_actual {
+  color: #1d2026;
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-right: 16px;
+}
+
+.discount_percentage {
+  color: #ff7e1b;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #ffeee2;
+  padding: 4px 8px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.price_past {
+  color: #b6bcc8;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.buy_container {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.quantity_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #f6f8fd;
+  width: 150px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.quantity_container > div {
+  font-size: 1.5rem;
+  color: #1d2026;
+}
+
+.quantity_container > .orange {
+  color: #ff7e1b;
+  cursor: pointer;
+}
+
+button {
+  background-color: #ff7e1b;
+  color: #fff;
+  padding: 20px 70px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: ease-in-out 0.3s;
+}
+button > img {
+  color: #fff;
+}
+button > div {
+  margin-left: 16px;
+}
+
+/*Hovers*/
+li > a:hover {
+  color: #ff7e1b;
+}
+
+.logo:hover {
+  scale: 1.2;
+}
+
+button:hover {
+  background-color: #1d2026;
+}
